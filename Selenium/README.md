@@ -89,7 +89,7 @@ For each record appeared, there might be multiple reports. Append all reports' u
 
 ```python
 for r in reports:
-	year = r('a span:nth-child(1)').text()
+    year = r('a span:nth-child(1)').text()
     # label = r('a span:nth-child(2)').text()
     url = '///////' + r('a').attr('href')
     report.append(year+': '+url)
