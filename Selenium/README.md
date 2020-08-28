@@ -1,4 +1,4 @@
-# Project Descriptions
+# Project Description
 
 Goal: Use selenium to download pdf files from web database
 
